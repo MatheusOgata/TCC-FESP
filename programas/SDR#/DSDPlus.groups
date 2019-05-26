@@ -1,0 +1,25 @@
+
+; DSD+ 1.101; group records
+;
+; you can edit this file while DSD+ is running
+;
+; line format: protocol, networkID, group, priority, override, hits, timestamp, "group alias"
+
+; 
+
+DMR,       0,    724,      50,  Normal,       1,  2019/05/19 13:50,  ""
+DMR,       0,    10000,    0,     High,       4,  2019/05/19  1:28,  ""
+DMR,       0,    800010,   50,  Normal,       6,  2019/05/19 13:38,  ""
+DMR,       0,    11000000, 50,  Normal,       1,  2019/05/19 12:49,  ""
+DMR,       0,    15000000, 50,  Normal,      13,  2019/05/19 13:30,  ""
+
+; 
+
+P25,       0,    1,        50,  Normal,      12,  2019/05/19 13:32,  ""
+P25,       0,    33,       50,  Normal,       1,  2019/05/19 13:31,  ""
+P25,       0,    107,      50,  Normal,       1,  2019/05/19 12:54,  ""
+P25,       0,    110,      50,  Normal,       1,  2019/05/19 13:53,  ""
+P25,       0,    20004,    50,  Normal,       4,  2019/05/19  1:32,  ""
+P25,       0,    24577,    50,  Normal,       1,  2019/05/19 13:32,  ""
+
+; 11 records; 0 aliases

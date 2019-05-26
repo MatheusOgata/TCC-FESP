@@ -1,0 +1,5 @@
+programa necessário à comunicação entre RTL-SDR dongle e demais interfaces.
+Necessário instalar o driver do dongle com o Zadig, já localizado na pasta correspondente
+
+
+manual: https://www.rtl-sdr.com/sdrsharp-users-guide/

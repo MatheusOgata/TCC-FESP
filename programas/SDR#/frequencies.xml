@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<ArrayOfMemoryEntry xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <MemoryEntry>
+    <IsFavourite>true</IsFavourite>
+    <Name>91,699 MHz WFM</Name>
+    <GroupName>Misc</GroupName>
+    <Frequency>91698970</Frequency>
+    <DetectorType>WFM</DetectorType>
+    <Shift>0</Shift>
+    <FilterBandwidth>63190</FilterBandwidth>
+  </MemoryEntry>
+  <MemoryEntry>
+    <IsFavourite>true</IsFavourite>
+    <Name>120,500 MHz AM</Name>
+    <GroupName>Misc</GroupName>
+    <Frequency>120500010</Frequency>
+    <DetectorType>AM</DetectorType>
+    <Shift>0</Shift>
+    <FilterBandwidth>9210</FilterBandwidth>
+  </MemoryEntry>
+  <MemoryEntry>
+    <IsFavourite>true</IsFavourite>
+    <Name>165,8632 MHz NFM</Name>
+    <GroupName>Misc</GroupName>
+    <Frequency>165863191</Frequency>
+    <DetectorType>NFM</DetectorType>
+    <Shift>0</Shift>
+    <FilterBandwidth>9000</FilterBandwidth>
+  </MemoryEntry>
+  <MemoryEntry>
+    <IsFavourite>true</IsFavourite>
+    <Name>170,4626 MHz NFM</Name>
+    <GroupName>Misc</GroupName>
+    <Frequency>170462643</Frequency>
+    <DetectorType>NFM</DetectorType>
+    <Shift>0</Shift>
+    <FilterBandwidth>19940</FilterBandwidth>
+  </MemoryEntry>
+</ArrayOfMemoryEntry>
