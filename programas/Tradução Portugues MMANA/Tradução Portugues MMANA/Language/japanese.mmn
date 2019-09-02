@@ -1,0 +1,963 @@
+932
+
+whatnew whatsnew.txt
+
+HelpFile mmana
+
+MainWnd MMANA
+TabSheet1 アンテナ定義
+Label1 名前
+WireCnt ワイヤー 0
+CurCnt 給電点 0
+LoadCnt 集中定数 0
+Label5 周波数
+Label6 MHz
+Label2 自動分割:
+AutoVol 電圧自動設定
+EnbLoad 有効
+ChkWith 接続点連動
+ChkRmd 波長表記
+DocBtn コメント
+TabSheet2 形状
+Label8 縮尺
+Label13 電流振幅
+SelLB ワイヤー選択
+DspCur 電流表示
+DspPlus 分割表示
+LnThickCB 太く表示
+SavImBtn 画像保存
+Label7 回転中心
+CenterRb X=0, Y=0, Z=H
+FullWRb アンテナ中心
+WireCenterRB 選択されたワイヤー
+TabSheet3 計算
+Label9 周波数
+Label10 MHz
+AntName3 Noname
+Label11 地上高
+Label12 m
+Label15 ワイヤ素材
+CalTrgBtn 開始/停止
+GndSetBtn 設定
+ACalBtn1 最適化
+ACalBtn2 中止
+EleEditBtn エレメント編集
+ACalResBtn 最適化記録
+BwBtn 周波数特性
+WireSel0 無損失
+WireSel1 銅線
+WireSel2 銅パイプ
+WireSel3 アルミ線
+WireSel4 アルミパイプ
+WireSel5 鉄線
+WireSel6 鉄パイプ
+WireSel7 ユーザ設定ワイヤ
+WireSel8 ユーザ設定パイプ
+WireCadBtn ワイヤー編集
+TabSheet4 パターン
+EleBtn 水平パターンの仰角
+Btn3D 3次元表示
+PrintBtn 印刷
+WaveSel 表示する偏波
+K7 削除
+K9 追加
+K35 始点終点交換
+KR1 検索と置換
+KM1 移動
+KT1 ワイヤー定義
+K46 組み合わせワイヤー
+K47 ワイヤー組み合わせデータ
+O1 オプション
+K29 この位置を中心にする
+K41 給電点削除
+K40 給電点追加と移動
+K42 ワイヤー中心点
+K43 ワイヤー始点
+K44 ワイヤー終点
+KS5 始点終点交換
+KM2 移動
+KT3 ワイヤー定義
+KC3 組み合わせワイヤー設定
+K48 組み合わせワイヤー展開表示
+K1 ファイル(&F)
+K2 新規作成(&N)
+K3 開く(&O)...
+Reopen 最近のファイル
+K4 上書き保存(&S)
+K5 名前をつけて保存(&A)
+K34 文書情報（コメント）
+K12 遠傍界データを開く(*.mab)
+K11 遠傍界データを保存(*.mab)
+K19 最適化記録を開く(*.mao)
+K20 最適化記録を保存(*.mao)
+KC2 電流データ表(*.csv)
+K31 近傍界データ表(*.csv)
+K32 方向と利得の表(*.csv)
+K49 F/SWR/Gain/Zの表 (*.csv)
+NWLDat F/R/jXのリスト作成 (*nwl)
+K6 終了(&X)
+KE1 編集(&E)
+K13 削除(&D)
+K14 追加(&A)
+K27 検索置換
+K28 移動
+KT2 ワイヤー定義
+KXY 座標の交換
+KXY1 X/Y軸（90°回転）
+KXZ1 X/Z軸
+KYZ1 Y/Z軸（水平⇔垂直）
+K33 全ワイヤの回転(&O)
+KS4 アンテナのサイズ
+K22 値を丸める
+K23 桁（小数点以下）
+K37 スタックの設定
+K45 組み合わせワイヤー
+K38 現在の状態を一時記憶
+K39 一時記憶状態に戻す
+K36 最適化前の状態に戻す
+K30 テキストで編集
+KCAD ワイヤー編集
+K18 エレメント編集
+KV1 表示(&V)
+KC1 結果の比較(&C)
+K8 最適化(&O)
+K15 最適化記録(&D)
+K21 オプションとセットアップ(&S)
+Tabposition1 タブの位置
+ToolBV ツールバー表示
+LanguageMenu 言語
+T0 ツール(&T)
+K17 電卓
+UserMen ユーザプログラム
+User1Menu 1. Nec for MMANA
+User2Menu 2. 未定義
+User3Menu 3. 未定義
+EditUsProg ユーザプログラム設定
+KH1 ヘルプ(&H)
+CalcSel 計算条件
+CalcSel0 自由空間
+CalcSel1 完全導体グラウンド
+CalcSel2 リアルグラウンド
+ComCapt コメント編集
+next 新規
+SWR SWR
+Wire ワイヤーNo.%d
+taper (テーパー)
+insulator (絶縁)
+Length 長さ :  %s m
+Azim 方位角 :  %s deg
+Zenith 天頂角 :  %s deg
+deg 角度
+Source 給電
+Load 集中定数
+
+ACalDlg 最適化
+Label4 パラメータ
+OKBtn 開始
+CancelBtn キャンセル
+GroupBox1 評価の割合
+Label1 ゲイン
+Label5 SWR
+Label6 仰角
+Label7 マッチング回路
+Label8 電流
+BandBtn バンド選択
+TerDis 目標なし（単純スイープ）
+TerBtn 詳細設定
+RefEle エレメント編集
+DelBtn 削除
+DispRes ログの表示
+AllEle 全エレメント
+PitchAbs 可変ピッチは絶対値
+DegUnit 分解能2°
+K1 ワイヤー
+K12 ワイヤー（極座標）
+K2 エレメント
+K3 負荷
+K4 高さ
+K9 周波数
+K24 給電
+K32 スタック間隔
+K5 間隔
+K6 幅 Y
+K7 高さ Z
+Kor1 長さ X
+K33 位置
+K61 幅 Y (全座標)
+K71 高さ Z (全座標)
+Kor11 長さ X (全座標)
+L1 L or R
+C1 C or jX
+K28 この行に追加
+K10 この行を削除
+K27 全削除
+K23 ピッチの一括設定
+K34 エレメントの連携設定
+K11 自動連携登録
+K13 長さ(始点)
+K14 長さ(終点)
+K15 長さ(中点)
+K16 方位角(始点)
+K17 方位角(終点)
+K18 方位角(中点)
+K19 天頂角(始点)
+K20 天頂角(終点)
+K21 天頂角(中点)
+K25 位相
+K26 電圧
+K31 Interv. X
+K29 Interv. Y
+K30 Interv. Z
+OptimQuest 全エレメント？
+MMOptStep MMANA-最適化
+MMOptStep 共通ピッチ
+
+ACalEleBox エレメント変数選択
+Label1 2つ以上の複合変数
+OKBtn OK
+CBW 変数
+RGHW 連携
+
+ACalInfoBox 詳細設定
+TabTer 目標
+GroupBox1 許容最適化目標
+Label1 ゲイン
+Label6 SWR
+Label7 Ω
+MatchSel マッチング回路
+MatchSel1 キャパシタンスマッチ
+MatchSel2 ヘアピンマッチ
+MatchSel3 任意のZ
+GroupBox4 Z設定
+GroupBox5 電流
+Label15 パルス位置
+RBIMAX 最大化
+RBIMIN 最小化
+TabEnv 計算環境
+GroupBox2 F/B比計算の後方範囲
+Label8 水平
+Label9 垂直
+Label10 °
+Label11 °
+GroupBox3 SWR計算基準Z
+Label12 Ω
+Label18 Ω
+AutoJX ヘアピンマッチ
+OKBtn OK
+CancelBtn キャンセル
+rusline 整合目標Zを入力(Ohm)
+
+ACalMultDlg バンド選択
+OKBtn OK
+DelBtn 削除
+Weight 1番を重視
+hd0 No.
+hd1 周波数(MHz)
+hd2 パルス %d
+hd3 位相 %d
+hd4 電圧 %d
+
+ACalResDlg 最適化ログ
+Label1 順番
+OKBtn OK
+CancelBtn キャンセル
+SortSel1 値
+SortSel2 jX
+SortSel3 SWR
+SortSel4 Gain
+SortSel5 F/B
+SortSel6 Elev.
+
+BwDispDlg 周波数特性
+Label1 バンド幅
+Label2 KHz
+TabZ Z
+TabSWR SWR
+TabGA Gain/FB
+TabSet Setup
+GroupBox1 中心周波数
+Label3 MHz
+GroupBox2 マッチング
+SelMatch マッチングをとるグラフ
+SelMatch1 OFF
+SelMatch2 SWRグラフのみ
+SelMatch3 Z, SWRグラフ両方
+GroupBox3 マッチングをとる周波数
+MatchCenter 中心周波数でマッチングをとる
+GroupBox4 SWRグラフ縦軸上限
+GroupBox5 詳細ボタンの中間点数
+TabPtn パターン
+RGPtn 偏波
+RGPtn1 V
+RGPtn2 H
+RGPtn3 Total
+RGPtn4 V+H
+ColorBtn 色
+TryBtn 推測
+PrintBtn 印刷
+GetFoBtn 共振
+MeasBtn 全点
+HalfBtn 詳細
+KM マッチングをとるグラフ
+KMOFF OFF
+KMSWR SWRグラフのみ
+KMZSWR Z, SWRグラフ両方
+
+MediaDlgBox リアルグランド設定
+OKBtn OK
+CancelBtn キャンセル
+GroupBox1 グランドスクリーン
+GScrFlag グランドスクリーン
+GroupBox2 追加ラジアル
+Label1 ラジアル
+Label3 半径
+Label4 mm
+K1 削除
+K2 追加
+
+MoveDlgBox 移動
+Label1 値
+Label2 m
+OKBtn OK
+CancelBtn キャンセル
+VectSel 軸
+ChkWith 選択点のみ
+ChkAll 全座標
+
+NearSetDlg 近傍界計算
+OKBtn OK
+CancelBtn キャンセル
+CalcSel 電磁界
+CalcSel1 電界
+CalcSel2 磁界
+GroupBox1 位置
+Label2 開始 (m)
+Label3 ステップ (m)
+Label4 ステップ数
+GroupBox2 電力
+Label8 ワット
+
+NWLForm F/Z マルチバンド
+Label1 ステップ
+Label5 バンド
+Label2 周波数スキャン
+Label3 開始
+Label4 終了
+OKbBtn OK
+OKBtn 計算
+CancBtn 閉じる
+SaveBtn 保存
+ClrBtn クリア
+StCB ユーザプログラム開始
+Stop 停止
+
+OpenGL_Form 3次元遠傍界
+Label1 Zoom
+CheckBox1 全部
+CheckBoxH 全プロット表示
+M1 3次元セットアップ
+M2 中心へ
+M3 アンテナ表示
+M4 X/2とY/2を中心へ
+M5 H/2を中心へ
+M6 線幅
+M7 色
+M8 名前をつけて画像を保存
+
+GLColForm 色
+Label1 アンテナ
+Label2 バックグラウンド
+Label3 選択プロット
+Label4 プロット
+FontCb 黒用フォント
+
+AVEZForm 3次元セットアップ
+Button1 OK
+EvGB 打ち上げ方向点数 = 
+AzGB 方位方向点数 = 
+Label1 ステップ(度)
+Label2 ステップ(度)
+
+OptDlgBox オプションとセットアップ
+OKBtn OK
+CancelBtn キャンセル
+TabTank 共振
+Label1 周波数
+Label2 リアクタンス
+Label5 MHz
+Label6 Ω
+Label7 uH
+TFixFreq 周波数を固定
+TabCoil コイル
+Label10 コイル直径
+Label11 線材の直径
+Label12 巻きスペース
+Label13 巻き数
+Label14 uH
+Label16 cm
+Label17 mm
+Label18 mm
+Label20 コイル長
+Label22 cm
+ACalSel 計算
+ACalSel1 L
+ACalSel2 巻き数
+ACalSel3 コイル直径
+TabMatch LC-マッチ
+Label21 Ω
+Label24 Ω
+Label26 Ω
+Label27 周波数
+Label28 MHz
+Label25 フィーダー
+MXSel 回路構成
+MXSel1 C並列型
+MXSel2 C直接型
+TabQM 分布定数線路
+GroupBox2 インピーダンス
+Label60 Ω
+Label61 Ω
+Label62 Ω
+Label63 Ω
+QLSWR SWR
+QLSWRL SWR
+GroupBox6 フィーダ
+Label54 Ω
+Label59 λ
+Label69 損失
+QMSel ZLを計算
+GroupBox3 Q-マッチ
+Label68 Ω
+Label71 Ω
+Label72 Ω
+QLSWR2 SWR
+GroupBox4 フィーダ1
+Label64 Ω
+Label65 λ
+GroupBox5 フィーダ2
+Label66 Ω
+Label67 λ
+QMBtn TUNE
+TabStub スタブマッチ
+Label83 MHz
+Label85 Ω
+Label77 Ω
+Label78 Ω
+GroupBox8 フィーダ
+Label80 Ω
+Label81 Vf
+GroupBox9 解1
+GroupBox10 解2
+SMCalcBtn TUNE
+TabCore スタブ
+Label29 形式
+Label30 リアクタンス
+Label31 長さ
+Label32 Ω
+Label33 cm
+Label40 周波数
+Label41 MHz
+Label42 Vf
+Label44 Ω
+CStub スタブタイプ
+CStub1 先端開放
+CStub2 先端短絡
+TabEnv セットアップ
+GroupBox1 F/B比計算後方範囲
+Label34 水平
+Label35 垂直
+Label36 度
+Label37 度
+GroupBox12 基準Z(SWR=1)
+Label39 Ω
+Label87 Ω
+AutojX ヘアピンマッチ
+GroupBox11 電流表示
+CBCurDir 方向指定
+RGFixAngle 自由空間時の水平パターン
+RGFixAngle1 自動 - 最大輻射角度
+RGFixAngle2 固定 - 水平に固定
+GroupBox13 最大パルス数
+GroupBox14 最新のファイル数（メニュー）
+Label88 数
+RecentMAA MAAファイルのみ
+GroupBox15 フォント
+Label89 サイズ
+RofLine インピーダンスを入力
+FntSpBt フォント
+
+ResCmpDlg 比較
+OKBtn 戻る
+LoadBtn mabファイルをロード 
+DelBtn クリア
+ColBtn 色
+WaveSel Field(s)
+ghd0  No.
+ghd1  F (MHz)
+ghd2  R
+ghd3  jX
+ghd4  SWR
+ghd5  Gh
+ghd6  Ga
+ghd7  F/B
+ghd8  Elev.
+ghd9  GND
+ghd10  Height
+ghd11  Pol.
+ghd12  File
+ghd13  name
+ghd14  Free
+ghd15  Perfect
+ghd16  Real
+ghd17  V
+ghd18  H
+ghd19  this
+
+RotWireDlg 回転
+Label1 角度
+Label3 度
+OKBtn OK
+CancelBtn キャンセル
+BSel 軸選択
+
+StackDlgBox スタック
+Label1 水平方向の数
+Label2 垂直方向の数
+Label3 水平間隔
+Label4 垂直間隔
+LHW λ
+LVW λ
+OKBtn スタック生成
+CancelBtn キャンセル
+CBRmdSel 波長表記
+CBSame 垂直水平同一間隔
+VT 垂直位置
+VT1 上下に展開
+VT2 上に向けて展開
+VT3 下に向けて展開
+AntNewBtn アンテナ定義を変更
+
+TextEditDlg アンテナ定義編集
+OKBtn OK
+CancelBtn キャンセル
+FontBtn フォント
+
+ValRepDlg 検索と置換
+Label1 検索値
+Label2 置換値
+OKBtn OK
+CancelBtn キャンセル
+RepSel 検索座標
+RepSel1 すべて
+RepSel2 X軸のみ
+RepSel3 Y軸のみ
+RepSel4 Z軸のみ
+InvSel 対象座標も変更
+
+WCombDlg テーパリング
+OKBtn OK
+DelBtn 削除
+K1 <> 中央から両端へ向けてテーパリング (segment. = -1 推奨)
+K2 -> 第一端から第二端へ向けてテーパリング (segment. = -1 推奨)
+K3 <> * 中央から両端へ向けてテーパリング (segment. = 0 リニア)
+K4 -> * 第一端から第二端へ向けてテーパリング (segment.=  0 リニア)
+
+WCombDspDlg 複合ワイヤーデータ表
+OKBtn OK
+
+WireCadDlg ワイヤー編集
+SBSel ワイヤー編集
+SBLine ワイヤー追加
+SBLoop ループ追加
+Label4 表示
+Label5 回転
+Label1 ズーム
+OKBtn OK
+CancelBtn キャンセル
+TabAll 3次元表示
+TabXY 2D X-Y
+TabXZ 2D X-Z
+TabYZ 2D Y-Z
+GroupBox1 グリッド
+Label2 ステップ
+Label3 m
+ChkGrid On
+ChkAutoGrid 自動
+SelFilter1 すべて
+SelFilter2 平面
+SelFilter3 エレメント
+K4 全体表示
+K8 X=0,Y=0,Z=高さを中心に
+K9 アンテナ全体を中心に
+K12 一時記憶スクリーンを呼び出し
+K13 スクリーンA
+K14 スクリーンB
+K15 スクリーンC
+K16 スクリーンを記憶
+K17 スクリーンA
+K18 スクリーンB
+K19 スクリーンC
+KU1 やり直し(&U)
+K11 ワイヤー定義(&E)...
+K3 ワイヤー削除(&D)
+K1 最も近いワイヤーに接続
+K5 接続点から切断
+KS1 始点終点を交換(&S)
+K10 ワイヤー中点を座標中心へ
+K2 ワイヤー分割
+KP2 2 本
+KP3 3 本
+KP4 4 本
+KP5 5 本
+KP6 6 本
+KP7 7 本
+KP8 8 本
+KP9 9 本
+KP10 10 本
+K6 グリッド始点
+K7 初期化
+KX11 このワイヤーの終点
+SBOrgHint X=0, Y=0, Z=高さを中心へ
+SBViewHint アンテナ中心を座標中心へ
+
+WireEditDlg ワイヤー定義
+OKBtn OK
+CancelBtn キャンセル
+GroupBox1 ワイヤー定義
+Label14 セグメント
+InitBtn リセット
+GroupBox2 極座標
+Label16 方位角
+Label17 天頂角
+Label18 長さ
+Label20 度
+Label21 度
+BaseSel 点を保持
+BaseSel1 始点
+BaseSel2 終点
+BaseSel3 中点
+ChkChen 接続状態を保持
+
+FarSetDlg 方向とゲインの表
+OKBtn OK
+CancelBtn キャンセル
+GroupBox1 方向
+Label1 水平方位角
+Label2 天頂角
+Label3 開始角
+Label4 ステップ
+Label5 ステップ数
+FileBtn 保存
+
+FreqSetDlg Freq/SWR/Gain/Zの表
+OKBtn OK
+CancelBtn キャンセル
+GroupBox1 周波数
+Label2 ステップ
+Label9 ステップ数
+GroupBox2 マッチングオプション
+Label6 マッチング周波数
+MatchSel1 マッチングなし
+MatchSel2 中心周波数
+MatchSel3 マッチング周波数設定
+
+GrpWireDlg  エレメント
+TabSheet1 パラメータ
+TabSheet2 表示
+Label2 ズーム
+AllViewBtn X=0,Y=0,Z=0を中心に
+OrgBtn アンテナ中心に
+PwidtCB ワイヤー表示太さ2倍
+EleWidthEdge 端点のみ変更
+EleWidthAll すべての座標を同一比率で変更
+ChkIntval 間隔表記
+ChkRmd 波長表記
+OKBtn OK
+CancelBtn キャンセル
+K2 削除
+K3 追加
+K4 電卓
+K14 この表を印刷
+KCSV1 この表を保存
+K9 値を丸める
+K10 小数点以下2桁
+K11 小数点以下3桁
+K12 小数点以下4桁
+K13 検索と置換
+K6 ワイヤーのテーパリング
+K1 エレメント形状の変更
+KS1 水平ダイポール
+KS2 垂直ダイポール
+KS3 垂直□
+KS4 垂直◇
+KS5 垂直▽
+KS6 垂直△
+K5 垂直○
+K7 垂直双□
+K8 垂直双▽
+KS7 水平□
+KS8 水平◇
+KS9 水平▽
+next 新規
+
+WireScaleDlg ワイヤースケール
+Label1 古い周波数
+Label2 新しい周波数
+Label4 Mult.
+OKBtn OK
+CancelBtn キャンセル
+GroupBox 対象
+WireRSW ワイヤー半径(R)
+WireXSW X 軸
+WireYSW Y 軸
+WireZSW Z 軸
+TaperCB Taper wires
+
+UsCase ユーザプログラムの設定
+SrchBtn 検索
+USPlCB 現在のMAAファイルに対しユーザプログラム開始
+Button1 OK
+Button2 キャンセル
+UserRG ユーザプログラム
+
+UserMaterial Material
+Label1 Resistivity
+Label2 Permeability
+OKBtn OK
+CancBtn Cancel
+
+HintMain_Wnd Hints
+Label5 デフォルト周波数
+Label6 デフォルト周波数
+Label3 DM1: テーパリング開始時の間隔（=λ/DM1）
+Label4 DM2: テーパリング終了時の間隔（=λ/DM2）
+Label14 SC: テーパリングの変化の度合い（乗数） 1 < SC <= 3
+Label16 EC: テーパリングの端点のセグメント数
+Freq デフォルト周波数
+EditDM1 DM1: テーパリング開始時の間隔（=λ/DM1）
+EditDM2 DM2: テーパリング終了時の間隔（=λ/DM2）
+EditEC EC: テーパリングの端点のセグメント数
+EditSC SC: テーパリングの変化の度合い（乗数） 1 < SC <= 3
+ChkWith 接続状態を保つ
+Label9 現在の周波数
+Label10 現在の周波数
+Label11 この値を自動的にZ方向へ足しこむ
+DoFreq 現在の周波数
+AntHeight この値を自動的にZ方向へ足しこむ
+ToolButton2 新規
+ToolButton4 開く
+ToolButton6 名前をつけて保存..
+ToolButton10 ワイヤー編集
+ToolButton9 エレメント編集
+ToolButton8 Options and setup
+ToolButton12 電卓
+ToolButton14 終了
+Btn3D 3次元遠傍界パターン
+ElevFrageStr 遠傍界打ち上げ角
+grid11 現在の周波数
+grid12 自由空間におけるWinn 対 1/2波長ダイポール
+grid13 最大GA打ち上げ角 (度).
+grid14 この値を自動的にZ方向へ足しこむ
+grid14 偏波
+Ground 自由空間
+Ground 完全導体グランド
+Ground リアルグランド
+Grid1 No.
+Grid1 F (MHz)
+Grid1 R (Ohm)
+Grid1 jX (Ohm)
+Grid1 SWR
+Grid1 Gh dBd
+Grid1 Ga dBi
+Grid1 F/B dB
+Grid1 Elev.
+Grid1 Ground
+Grid1 Add H.
+Grid1 Polar.
+Polar vert.
+Polar hori.
+mainmes0 アンテナ全体または一部が地面より低くなっています。
+mainmes1 ?%s ファイルをロードできません。
+mainmes2 無効なフォーマットです %s.
+mainmes3 ファイルが変更されています、保存しますか?
+mainmes4 最適化データを*.maoファイルとして保存しますか?
+mainmes5 X, Y, Z すべて変更になります、よろしいですか?
+mainmes6 指定桁数以下は切り捨てられますが、よろしいですか?
+mainmes7 データを戻しますか?
+mainmes8 一時記憶からデータを戻しますか?
+mainmes9 ワイヤーの直径を変更しますか?
+cmlb0 ワイヤーが多すぎます。
+cmlb1 Line.(%d): 関連値が見つかりません!
+cmlb2 Line.(%d): 変数がありません!
+cmlb3 Line.(%d): この値は変更できません!
+cmlb4 Load (%d): この負荷は変更できません!
+cmlb5 Line(%d): 自由空間では高さを変えられません!
+cmlb6 Line.(%d): 変数が見つかりません!
+cmlb7 Line (%d): ワイヤー(%d) が同一です！
+cmlb8 Line(%d): 関連値が異なっています (%d) 正しい値をセットしますか?
+cmlb9 半径データがありません (テーパリング)
+thd0 WIRE,PULSE,X(m),Y(m),Z(m),REAL(A),IMAGINARY(A),MAGNITUDE(A),PHASE(DEG)
+thd1 X(m),Y(m),Z(m),VECTOR,REAL(AT/m),IMAGINARY(AT/m),MAGNITUDE(AT/m),PHASE(DEG)
+thd2 X(m),Y(m),Z(m),VECTOR,REAL(V/m),IMAGINARY(V/m),MAGNITUDE(V/m),PHASE(DEG)
+thd3 ZENITH(DEG),AZIMUTH(DEG),VERT(dBi),HORI(dBi),TOTAL(dBi)
+thd4 この表を保存
+
+MsessagACal_Dlg Messages
+optallmes すべてのエレメントを最適化しますか?
+tt No.
+tt タイプ
+tt 位置
+tt What
+tt 連携
+tt ステップ
+tt 最小
+tt 最大
+tt 値
+tt1 ワイヤ
+tt1 エレメント
+tt1 負荷
+tt1 高さ
+tt1 F
+tt1 ワイヤーP
+tt1 給電点
+tt1 スタック間隔
+tt3 Int.
+tt3 Y
+tt3 Z
+tt3 X
+tt3 R
+tt3 Pos.
+tt3 Y (all)
+tt3 Z (all)
+tt3 X (all)
+tt4 Len(st)
+tt4 Len(end)
+tt4 Len(mid)
+tt4 Az(st)
+tt4 Az(end)
+tt4 Az(mid)
+tt4 Zen(st)
+tt4 Zen(end)
+tt4 Zen(mid)
+tt5 Int Y
+tt5 Int X
+tt5 Int Z
+volphas 電圧
+volphas 位相
+
+MessageACalRes_Dlg Result Messages
+usresmes これらの値を新しいアンテナデザインとして使いますか？
+tt No.
+tt Z(Ohm)
+tt SWR(50)
+tt Ga(dBi)
+tt F/B(dB)
+tt 打上角
+tt 目標
+
+MessagBwDisp_Dlg Plots Messages
+getfmess 現在の周波数を F/SWR/Gain/Z表に設定しますか?
+
+MessagGrpWire_Dlg Optimization Messages
+filmod データが変更されています。保存しますか?
+round 値が丸められます。よろしいですか?
+gleich No.%d と No.%d は同一エレメントです。
+tt なし
+tt 垂直直線
+tt 垂直クワッド
+tt 垂直ひし形
+tt 垂直三角
+tt 垂直三角
+tt 垂直八角
+tt 垂直双三角
+tt 水平直線
+tt 水平クワッド
+tt 水平ひし形
+tt 水平三角
+tt 水平三角
+tt 水平双三角
+tt 水平複合
+tt 垂直複合
+tt1 No.
+tt1 形状
+tt1 間隔(m)
+tt1 幅(m)
+tt1 高さ(m)
+tt1 長さ(m)
+tt1 半径(mm)
+tt1 セグメント
+tt1 ワイヤー
+tt1 周長(m)
+tt2 No.
+tt2 形状
+tt2 間隔(λ)
+tt2 幅(λ)
+tt2 高さ(λ)
+tt2 長さ(λ)
+tt2 半径(λ)
+tt2 セグメント
+tt2 ワイヤー
+tt2 周長(λ)
+
+MessageMedia_DlgBox Media Messages
+tt1  No.
+tt1  誘電率
+tt1  導電率(mS/m)
+tt1  X (m)
+tt1  高さ(m)
+tt2  No.
+tt2  誘電率
+tt2  導電率(mS/m)
+tt2  半径(m)
+tt2  高さ(m)
+
+MessagStack_DlgBox Stack Messages
+muchwire  ワイヤー数が多すぎます!
+muchsourc  給電点数が多すぎます!
+muchload  負荷数が多すぎます!
+smdist  間隔が狭すぎます、またはオーバーラップしています。
+creatnew 新たなアンテナを定義しますか? 
+
+MessageWireCad_Dlg Wireedit Messages
+FiltTab すべて
+FiltTab 平面
+FiltTab エレメント
+FiltTab
+
+MININEC Mininec Messages
+hd0  FACTOR MATRIX...
+hd1  PULSE   ;  U (V) ;;  I (mA);; Z (Ohm);;SWR
+hd2  FILL MATRIX...
+hd3  CURRENT DATA...
+hd4  波長 = %.3f (m)
+hd5  長さゼロのワイヤ. (No.%d)
+hd6  パルス数オーバーフロー (MAX=%d)
+hd7  給電点なし....
+hd8  TOTAL PULSE = %d
+hd9 パルス数オーバーフロー...
+hd10  給電点数オーバーフロー...
+hd11 パルス数オーバーフロー...
+hd12  FAR FIELD ...
+hd13  計算エラーなし
+hd14  計算エラー発生、アンテナ定義を確認してください。
+hd15 ワイヤ %d の高さが負です. 高さ = %.2f m
+hd16 接地: ON
+hd17 THE CALCULATION WAS INTERRUPTED.
+hd18 THE LOWEST POINT OF ANTENNA = %.3f M
+
+FFStrings Far field Messages
+ff0  自由空間
+ff1  パーフェクトグランド
+ff2  リアルグランド
+ff3  垂直偏波
+ff4  水平偏波
+ff5  %d 度
+ff6 方位 %u 度,  打上角 %u 度
+ff7  F/B: %.2f dB; Rear: 
+ff8 周波数: %.3f MHz
+ff9  Z: %.3f %c j%.3f Ohm
+ff10  %.1f (600 Ohm)
+ff11  SWR: %.1f (%s Ohm),
+ff12  :%.2f m height
+ff13  打上角: %.1f dg (%s 
+ff14  (打上角 %.1f 度で ピーク:%.1f dBi)
