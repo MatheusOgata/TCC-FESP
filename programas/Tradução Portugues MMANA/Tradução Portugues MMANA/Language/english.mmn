@@ -1,0 +1,962 @@
+0
+
+whatnew whatsnew.txt
+
+HelpFile mmana
+
+MainWnd MAIN WINDOW
+TabSheet1 Geometry
+Label1 Name
+WireCnt Wires 0
+CurCnt Sources 0
+LoadCnt Loads 0
+Label5 Freq
+Label6 MHz
+Label2 Auto segmentation:
+AutoVol Auto Voltage
+EnbLoad Use loads
+ChkWith Keep connect.
+ChkRmd lambda
+DocBtn Comments
+TabSheet2 View
+Label8 Zoom
+Label13 Zoom currents
+SelLB Selected wire
+DspCur Currents
+DspPlus Segments
+LnThickCB Pen width x 2
+SavImBtn Save image
+Label7 Rotate around :
+CenterRb X=0, Y=0, Z=H
+FullWRb Middle point of antenna
+WireCenterRB Selected wire
+TabSheet3 Calculate
+Label9 Freq
+Label10 MHz
+AntName3 No name
+Label11 Add height
+Label12 m
+Label15 Material
+CalTrgBtn Start/Stop
+GndSetBtn Ground setup
+ACalBtn1 Optimization
+ACalBtn2 Abort
+EleEditBtn Element edit
+ACalResBtn Optimization log
+BwBtn Plots
+WireSel0 No loss
+WireSel1 Cu wire
+WireSel2 Cu pipe
+WireSel3 Al wire
+WireSel4 Al pipe
+WireSel5 Fe wire
+WireSel6 Fe pipe
+WireSel7 User wire
+WireSel8 User pipe
+WireCadBtn Wire edit
+TabSheet4 Far field plots
+EleBtn Elevation
+Btn3D 3D FF
+PrintBtn Print
+WaveSel Field(s)
+K7 Del
+K9 Add
+K35 Replace start and End point
+KR1 Search and replace
+KM1 Move
+KT1 Wire definition
+K46 Taper wire set
+K47 Table of real Length/R for tapering wire
+O1 HF components
+K29 Center of coordinates on this position
+K41 Delete source
+K40 Move/Add source to
+K42 center of wire
+K43 beginning of wire (not recommended)
+K44 end of wire (not recommended)
+KS5 Exchange start and end points
+KM2 Move
+KT3 Wire definition
+KC3 Taper wire set
+K48 Table of real  Length/R for tapering wire
+K1 File
+K2 New
+K3 Open (*.maa)
+Reopen Reopen
+K4 Save (*.maa)
+K5 Save as ...(*.maa)
+K34 Comments
+K12 Open far fields (*.mab)
+K11 Save far fields (*.mab)
+K19 Open optimization log (*.mao)
+K20 Save optimization log (*.mao)
+KC2 Table of currents (*.csv)
+K31 Table of near fields (*.csv)
+K32 Table of Angle/Gain (*.csv)
+K49 Table F/SWR/Gain/Z (*.csv)
+NWLDat Create list F/R/jX (*nwl)
+K6 Exit
+KE1 Edit
+K13 Delete
+K14 Add
+K27 Search and replace
+K28 Move
+KT2 Wire definition
+KXY Parallel
+KXY1 Axis X
+KXZ1 Axis Z
+KYZ1 Axis Y
+K33 Rotate
+KS4 Wire scale
+K22 Round value
+K23 digits
+K37 Make stack
+K45 Taper wire set
+K38 Save data to temporary memory
+K39 Restore data from temporary memory
+K36 Restore the data &Before optimization
+K30 Antenna definition edit
+KCAD Wire edit
+K18 Element edit
+KV1 Setup
+KC1 Compare
+K8 Optimization
+K15 Optimization log
+K21 HF components
+Tabposition1 Tab position top/bottom
+ToolBV Toolbar visible
+LanguageMenu Language
+T0 Tools
+K17 Calculator
+UserMen User programs
+User1Menu 1. Not defined
+User2Menu 2. Not defined
+User3Menu 3. Not defined
+EditUsProg Edit user programs
+KH1 Help
+CalcSel Ground
+CalcSel0 Free space
+CalcSel1 Perfect
+CalcSel2 Real
+ComCapt Edit comments
+next next
+SWR SWR
+Wire Wire No.%d
+taper (taper)
+insulator (insulator)
+Length Length  : %s m
+Azim Azim.   :  %s deg
+Zenith Zenith  :  %s deg
+deg deg
+Source Source
+Load Load
+
+ACalDlg Optimization
+Label4 Parameters
+OKBtn Start
+CancelBtn Cancel
+GroupBox1 Rate of evaluation
+Label1 Gain
+Label5 SWR
+Label6 Elev
+Label7 Match
+Label8 Current
+BandBtn Band setting
+TerDis No goal set (simple sweep)
+TerBtn Advanced
+RefEle Element edit
+DelBtn Del
+DispRes display log
+AllEle All elements
+PitchAbs Step in absolute values
+DegUnit Resolution 2deg
+K1 Wire
+K12 Wire (polar coordinates)
+K2 Element
+K3 Load
+K4 Height
+K9 Frequency
+K24 Source
+K32 Stack interval
+K5 Interval
+K6 Width Y
+K7 Height Z
+Kor1 Perimeter or length X
+K33 Position
+K61 Width Y (all coordinates)
+K71 Height Z (all coordinates)
+Kor11 Perimeter or length X (all coordinates)
+L1 L or R
+C1 C or jX
+K28 Add line
+K10 Del. this line
+K27 Del. all
+K23 Together step setting
+K34 Cooperation setting an element
+K11 Automatic cooperation subscription
+K13 Length (start point)
+K14 Length (end point)
+K15 Length (midl point)
+K16 Azimuth angle (Start point)
+K17 Azimuth angle  (end point)
+K18 Azimuth angle  (middle point)
+K19 Zenith angle (start point)
+K20 Zenith angle (end point)
+K21 Zenith angle (middle point)
+K25 Phase
+K26 Voltage
+K31 Interv. H&&V
+K29 Interv. H
+K30 Interv. V
+OptimQuest Optimize all elements?
+MMOptStep MMANA-optim.
+MMOptStep Common step
+
+ACalEleBox Choice of element variable
+Label1 Combination more than one variable
+OKBtn OK
+CBW Available to var
+RGHW Cooperate with
+
+ACalInfoBox Advanced
+TabTer Goal
+GroupBox1 Optimization target
+Label1 Gain
+Label6 SWR
+Label7 Ohm
+MatchSel Matching circuit
+MatchSel1 Capacitance match
+MatchSel2 Hairpin match
+MatchSel3 Optional Z
+GroupBox4 Set optional Z
+GroupBox5 Current
+Label15 Pulse position
+RBIMAX Maximize
+RBIMIN Minimize
+TabEnv Environment
+GroupBox2 Rear range for F/B
+Label8 Azimut
+Label9 Vertical
+Label10 deg
+Label11 deg
+GroupBox3 Standard Z(SWR=1)
+Label12 Ohm
+Label18 Ohm
+AutoJX Set Z for hairpin match
+OKBtn OK
+CancelBtn Cancel
+rusline Z using line (Ohm)
+
+ACalMultDlg Band setting
+OKBtn OK
+DelBtn Del
+Weight Give priority to No 1
+hd0 No.
+hd1 F (MHz)
+hd2 Sour. %d
+hd3 Phas %d
+hd4 Volt %d
+
+ACalResDlg Optimization log
+Label1 Order
+OKBtn OK
+CancelBtn Cancel
+SortSel1 Evolution value
+SortSel2 jX
+SortSel3 SWR
+SortSel4 Gain
+SortSel5 F/B
+SortSel6 Elev.
+
+BwDispDlg Plots
+Label1 BW
+Label2 KHz
+TabZ Z
+TabSWR SWR
+TabGA Gain/FB
+TabSet Setup
+GroupBox1 Center Frequency
+Label3 MHz
+GroupBox2 Match options
+SelMatch Match unit on the plot
+SelMatch1 OFF
+SelMatch2 SWR - on
+SelMatch3 Z, SWR - on
+GroupBox3 Match frequency
+MatchCenter Match freq = central freq
+GroupBox4 Limit of SWR
+GroupBox5 Number of added dots
+TabPtn Far fields
+RGPtn Field(s)
+RGPtn1 V
+RGPtn2 H
+RGPtn3 Total
+RGPtn4 V+H
+ColorBtn Colours
+TryBtn Speculation
+PrintBtn Print
+GetFoBtn Resonance
+MeasBtn All points
+HalfBtn Detailed
+KM Match on the plots
+KMOFF OFF
+KMSWR SWR - On
+KMZSWR Z, SWR - On
+
+MediaDlgBox Real ground setup
+OKBtn OK
+CancelBtn Cancel
+GroupBox1 Type of the media in the complex (>1 line in up table) ground
+GScrFlag on- radial boundary (R), off-linear boundary (X )
+GroupBox2 Additional wire radials
+Label1 Number
+Label3 Radius of wire
+Label4 mm
+K1 Delete
+K2 Add
+
+MoveDlgBox Move
+Label1 Value
+Label2 m
+OKBtn OK
+CancelBtn Cancel
+VectSel Along the axis
+ChkWith Only selected point
+ChkAll All coordinates
+
+NearSetDlg Variables for near field calculation
+OKBtn OK
+CancelBtn Cancel
+CalcSel Field
+CalcSel1 Electric
+CalcSel2 Magnetic
+GroupBox1 Position
+Label2 Start (m)
+Label3 Step (m)
+Label4 Num. of steps
+GroupBox2 Power
+Label8 Wtts
+
+NWLForm F/Z Multiband
+Label1 Steps
+Label5 Bands
+Label2 Scan frequency
+Label3 Start
+Label4 End
+OKbBtn OK
+OKBtn Compute
+CancBtn Close
+SaveBtn Save
+ClrBtn Clear
+StCB Start user program
+Stop Stop
+
+OpenGL_Form 3D Far field
+Label1 Zoom
+CheckBox1 All
+CheckBoxH View all plots
+M1 3D Setup
+M2 Centred
+M3 Show antenna
+M4 X/2 and Y/2 = middle point
+M5 H/2 = middle point
+M6 Width of lines
+M7 Colours
+M8 Save image as...
+
+GLColForm Colours
+Label1 Antenna
+Label2 Background
+Label3 Selected plot
+Label4 Plot
+FontCb Black font
+
+AVEZForm 3D setup
+Button1 OK
+EvGB Elev.points =
+AzGB Azim.points =
+Label1 Azimuth step (deg)
+Label2 Elevation step (deg)
+
+OptDlgBox HF components
+OKBtn OK
+CancelBtn Cancel
+TabTank Resonance
+Label1 Frequency
+Label2 Reactance
+Label5 MHz
+Label6 Ohm
+Label7 Ohm
+TFixFreq Fixed frequency
+TabCoil Coil
+Label10 Diameter of coil
+Label11 Diameter of wire
+Label12 Between turns
+Label13 Number of turns
+Label14 uH
+Label16 cm
+Label17 mm
+Label18 mm
+Label20 Length of coil
+Label22 cm
+ACalSel Computation
+ACalSel1 L
+ACalSel2 Number of turns
+ACalSel3 Diameter of coil
+TabMatch LC-match
+Label21 Ohm
+Label24 Ohm
+Label26 Ohm
+Label27 Freq
+Label28 MHz
+Label25 Feeder
+MXSel Composition
+MXSel1 C parallel
+MXSel2 C series
+TabQM Line match  1
+GroupBox2 Impedance
+Label60 Ohm
+Label61 Ohm
+Label62 Ohm
+Label63 Ohm
+QLSWR SWR
+QLSWRL SWR
+GroupBox6 Line
+Label54 Ohm
+Label59 wl
+Label69 Loss
+QMSel Compute ZL
+GroupBox3 Q-match
+Label68 Ohm
+Label71 Ohm
+Label72 Ohm
+QLSWR2 SWR
+GroupBox4 Line1
+Label64 Ohm
+Label65 wl
+GroupBox5 Line2
+Label66 Ohm
+Label67 wl
+QMBtn TUNE
+TabStub Line match 2
+Label83 MHz
+Label85 Ohm
+Label77 Ohm
+Label78 Ohm
+GroupBox8 Line set
+Label80 Ohm
+Label81 Vf
+GroupBox9 Var 1
+GroupBox10 Var 2
+SMCalcBtn TUNE
+TabCore Stub
+Label29 Type of line
+Label30 Reactance
+Label31 Length
+Label32 Ohm
+Label33 cm
+Label40 Frequency
+Label41 MHz
+Label42 Vf
+Label44 Ohm
+CStub Stub
+CStub1 open
+CStub2 short
+TabEnv Setup
+GroupBox1 Rear range of F/B
+Label34 Azimuth
+Label35 Vertical
+Label36 deg
+Label37 deg
+GroupBox12 Standard Z(SWR=1)
+Label39 Ohm
+Label87 Ohm
+AutojX Hairpin match
+GroupBox11 Current display
+CBCurDir Specify direction
+RGFixAngle Elevation angle on far field by free space
+RGFixAngle1 auto - maximal radiation
+RGFixAngle2 fixed = 0 deg
+GroupBox13 Maximum pulses
+GroupBox14 Last files (menu)
+Label88 Number
+RecentMAA only MAA files
+GroupBox15 Font setup
+Label89 Size
+RofLine Z of using line (Ohm)
+FntSpBt Font
+
+ResCmpDlg Compare
+OKBtn Return
+LoadBtn Load *.mab file 
+DelBtn Clear
+ColBtn Colour
+WaveSel Field(s)
+ghd0  No.
+ghd1  F (MHz)
+ghd2  R
+ghd3  jX
+ghd4  SWR
+ghd5  Gh
+ghd6  Ga
+ghd7  F/B
+ghd8  Elev.
+ghd9  GND
+ghd10  Height
+ghd11  Pol.
+ghd12  File
+ghd13  name
+ghd14  Free
+ghd15  Perfect
+ghd16  Real
+ghd17  V
+ghd18  H
+ghd19  this
+
+RotWireDlg Rotate
+Label1 Angle
+Label3 deg
+OKBtn OK
+CancelBtn Cancel
+BSel Around axis
+
+StackDlgBox Stack
+Label1 Num of horiz.
+Label2 Num of vert.
+Label3 Hor. space
+Label4 Vert. space
+LHW wl
+LVW wl
+OKBtn Make stack
+CancelBtn Cancel
+CBRmdSel On-in lambda, off - in meter
+CBSame Hor. space = vert. space
+VT Vertical position
+VT1 stack either side of original antenna
+VT2 stack above original antenna
+VT3 stack below original antenna
+AntNewBtn Make new description as new antenna
+
+TextEditDlg Antenna definition edit
+OKBtn OK
+CancelBtn Cancel
+FontBtn Font
+
+ValRepDlg Search and replace
+Label1 Value to search
+Label2 Value to replace
+OKBtn OK
+CancelBtn Cancel
+RepSel Coordinates to search
+RepSel1 All
+RepSel2 only X
+RepSel3 only Y
+RepSel4 only Z
+InvSel Also replace mirrored coordinates
+
+WCombDlg Taper wire set
+OKBtn OK
+DelBtn Del
+K1 <> Tapering from  center to both ends (segment. = -1 recommended)
+K2 -> Tapering from end 1 to end 2 (segment. = -1 recommended)
+K3 <> * Tapering from center to both ends (segment. = 0 linear)
+K4 -> * Tapering from end 1 to end 2 (segment.=  0 linear)
+
+WCombDspDlg Table of real length/R for tapering wire
+OKBtn OK
+
+WireCadDlg Wire edit
+SBSel Edit Wire
+SBLine New Wire
+SBLoop New Loop
+Label4 Display
+Label5 Rotate
+Label1 Zoom
+OKBtn OK
+CancelBtn Cancel
+TabAll 3D view
+TabXY 2D X-Y
+TabXZ 2D X-Z
+TabYZ 2D Y-Z
+GroupBox1 Grid
+Label2 Step
+Label3 m
+ChkGrid On
+ChkAutoGrid Auto
+SelFilter1 All
+SelFilter2 Plane
+SelFilter3 Element
+K4 Centred on this position
+K8 Centred on X=0,Y=0,Z=Height
+K9 Centred on antenna
+K12 Recall memorized screen
+K13 Screen A
+K14 Screen B
+K15 Screen C
+K16 Memorize screen as
+K17 Screen A
+K18 Screen B
+K19 Screen C
+KU1 Undo  (&U)
+K11 Wire definition(&E)...
+K3 Del wire(&D)
+K1 Connect to the closest wire
+K5 Disjoint wires at the connected point
+KS1 Exchange start and end points(&S)
+K10 Set center of wire on center axis
+K2 Divide wire into
+KP2 2 pieces
+KP3 3 pieces
+KP4 4 pieces
+KP5 5 pieces
+KP6 6 pieces
+KP7 7 pieces
+KP8 8 pieces
+KP9 9 pieces
+KP10 10 pieces
+K6 Grid start point
+K7 initialize
+KX11 End of this wire
+SBOrgHint Center on X=0, Y=0, Z=Height
+SBViewHint Center = middle point of antenna
+
+WireEditDlg Wire definition
+OKBtn OK
+CancelBtn Cancel
+GroupBox1 Wire definition
+Label14 Seg
+InitBtn Reset
+GroupBox2 Polar coordinates (Length and angles)
+Label16 Azimuth angle
+Label17 Zenith angle
+Label18 Length
+Label20 deg
+Label21 deg
+BaseSel Keep point
+BaseSel1 Start point
+BaseSel2 End point
+BaseSel3 Middle point
+ChkChen Keep connected
+
+FarSetDlg Set parameters in the table Angle/gain
+OKBtn OK
+CancelBtn Cancel
+GroupBox1 Angle
+Label1 Azimuth
+Label2 Zenith
+Label3 Start deg.
+Label4 Step deg.
+Label5 Num. of steps
+FileBtn Save
+
+FreqSetDlg Set parameters in the table Freq/SWR/Gain/Z
+OKBtn OK
+CancelBtn Cancel
+GroupBox1 Frequency set
+Label2 Step
+Label9 Number of steps
+GroupBox2 Match options
+Label6 Match freq.
+MatchSel1 not match
+MatchSel2 middle freq
+MatchSel3 set match freq.
+
+GrpWireDlg Element edit
+TabSheet1 Parameters
+TabSheet2 View
+Label2 Zoom
+AllViewBtn Centered X=0,Y=0,Z=0
+OrgBtn Centered antenna
+PwidtCB Pen width x2
+EleWidthEdge Change only end points
+EleWidthAll Change all coordinates proportionally
+ChkIntval OFF - distance from first element, ON - space between wires
+ChkRmd lambda
+OKBtn OK
+CancelBtn Cancel
+K2 Del
+K3 Add
+K4 Calculator
+K14 Print this table
+KCSV1 Save this table as file
+K9 Round value
+K10 2 digits after point
+K11 3 digits after point
+K12 4 digits after point
+K13 Search and Replace
+K6 Taper wire set
+K1 Change of element form
+KS1 Line parallel axis Y
+KS2 Line parallel axis Z
+KS3 Quad perpendicular axis X
+KS4 Rhomb perpendicular axis X
+KS5 Triangle 1 perpendicular axis X
+KS6 Triangle 2 perpendicular axis X
+K5 Octaedr perpendicular axis X
+K7 Two quads perpendicular axis X
+K8 Two triangles perpendicular axis X
+KS7 Quad perpendicular axis Z
+KS8 Rhomb perpendicular axis Z
+KS9 Triangle 1 perpendicular axis Z
+next next
+
+WireScaleDlg Wire scale
+Label1 Old frequency
+Label2 New freq
+Label4 Mult.
+OKBtn OK
+CancelBtn Cancel
+GroupBox Object
+WireRSW Wire radius(R)
+WireXSW X axis
+WireYSW Y axis
+WireZSW Z axis
+TaperCB Taper wires
+
+UsCase Find users file
+SrchBtn Search
+USPlCB Start user program with current *.maa file
+Button1 OK
+Button2 Cancel
+UserRG Case user program
+
+UserMaterial Material
+Label1 Resistivity
+Label2 Permeability
+OKBtn OK
+CancBtn Cancel
+
+HintMain_Wnd Hints
+Label5 Default frequency
+Label6 Default frequency
+Label3 DM1: the interval of tapering start (= lambda/DM1)
+Label4 DM2: the interval of tapering end (=lambda/DM2)
+Label14 SC: the easing parameter (multiplier), 1 < SC <= 3
+Label16 EC: the number of segments at tapering-end point
+Freq Default frequency
+EditDM1 DM1: the interval of tapering start (= lambda/DM1)
+EditDM2 DM2: the interval of tapering end (=lambda/DM2)
+EditEC EC: the number of segments at tapering-end point
+EditSC SC: the easing parameter (multiplier), 1 < SC <= 3
+ChkWith Keep connected 
+Label9 Current frequency
+Label10 Current frequency
+Label11 Automatically add this value to Z-coordinates
+DoFreq Current frequency
+AntHeight Automatically add this value to Z-coordinates
+ToolButton2 New
+ToolButton4 Open
+ToolButton6 Save as..
+ToolButton10 Edit wire
+ToolButton9 Edit element
+ToolButton8 HF components
+ToolButton12 Calculator
+ToolButton14 Exit
+Btn3D 3 dimension far field plot
+ElevFrageStr Far field elevation angle
+grid11 Current frequency
+grid12 Winn vs 1/2LW Dipole in the free space
+grid13 Elevation angle of max GA (deg).
+grid14 Automatically add this value to Z-coordinates
+grid14 Type of the polarization
+Ground Free
+Ground Perfect
+Ground Real
+Grid1 No.
+Grid1 F (MHz)
+Grid1 R (Ohm)
+Grid1 jX (Ohm)
+Grid1 SWR
+Grid1 Gh dBd
+Grid1 Ga dBi
+Grid1 F/B dB
+Grid1 Elev.
+Grid1 Ground
+Grid1 Add H.
+Grid1 Polar.
+Polar vert.
+Polar hori.
+mainmes0 Antenna or part of antenna is underground. Increase height!
+mainmes1 Can not load %s
+mainmes2 Invalid format of file %s.
+mainmes3 File modified. Save changes?
+mainmes4 Save optimization log as *.mao file?
+mainmes5 All X-,Y- and Z- coordinates will be change. Make it?
+mainmes6 All additional digits after decimal point will be truncated. Make it?
+mainmes7 Restore data?
+mainmes8 Restore data from temporary?
+mainmes9 Change radius of wires?
+cmlb0 Too many wires!
+cmlb1 Line.(%d): Associated value is not found!
+cmlb2 Line.(%d): Variable does not exist!
+cmlb3 Line.(%d): Cannot change this parameter!
+cmlb4 Load (%d): You can not modify this load!
+cmlb5 Line(%d): Cannot change height in the free space!
+cmlb6 Line.(%d): Variable does not exist!
+cmlb7 Line (%d): Line (%d) equal lines
+cmlb8 Line(%d): different value in association (%d) Set correct value of association?
+cmlb9 No description for this R(Taper wire set)
+thd0 WIRE,PULSE,X(m),Y(m),Z(m),REAL(A),IMAGINARY(A),MAGNITUDE(A),PHASE(DEG)
+thd1 X(m),Y(m),Z(m),VECTOR,REAL(AT/m),IMAGINARY(AT/m),MAGNITUDE(AT/m),PHASE(DEG)
+thd2 X(m),Y(m),Z(m),VECTOR,REAL(V/m),IMAGINARY(V/m),MAGNITUDE(V/m),PHASE(DEG)
+thd3 ZENITH(DEG),AZIMUTH(DEG),VERT(dBi),HORI(dBi),TOTAL(dBi)
+thd4 Save current table
+
+MsessagACal_Dlg Messages
+optallmes Optimize all elements?
+tt No.
+tt Type
+tt Position
+tt What
+tt Associated
+tt Step
+tt Min
+tt Max
+tt Value
+tt1 Wire
+tt1 Eleme.
+tt1 Load
+tt1 Height
+tt1 F
+tt1 Wire P
+tt1 Source
+tt1 Stack in.
+tt3 Int.
+tt3 Y
+tt3 Z
+tt3 X
+tt3 R
+tt3 Pos.
+tt3 Y (all)
+tt3 Z (all)
+tt3 X (all)
+tt4 Len(st)
+tt4 Len(end)
+tt4 Len(mid)
+tt4 Az(st)
+tt4 Az(end)
+tt4 Az(mid)
+tt4 Zen(st)
+tt4 Zen(end)
+tt4 Zen(mid)
+tt5 Int H&V
+tt5 Int H
+tt5 Int V
+volphas Voltage
+volphas Phase
+
+MessageACalRes_Dlg Result Messages
+usresmes Use these parameters as the new antenna definition?
+tt No.
+tt Z(Ohm)
+tt SWR(50)
+tt Ga(dBi)
+tt F/B(dB)
+tt Elev deg
+tt Goal
+
+MessagBwDisp_Dlg Plots Messages
+getfmess Write current frequency to the F/SWR/Gain/Z tables?
+
+MessagGrpWire_Dlg Optimization Messages
+filmod File was modified. Save changes?
+round All additional digits after decimal point will be truncated. Make it?
+gleich No.%d and No.%d are identical elements
+tt none
+tt V line
+tt V quad
+tt V rhomb
+tt V trian
+tt V trian
+tt V octa.
+tt V 2trian
+tt H line
+tt H quad
+tt H rhomb
+tt H trian
+tt H trian
+tt H 2trian
+tt H compl
+tt V compl
+tt1 No.
+tt1 Form
+tt1 Int.(m)
+tt1 Width(m)
+tt1 Height(m)
+tt1 Length(m)
+tt1 R(mm)
+tt1 Seg.
+tt1 Wires
+tt1 Perim(m)
+tt2 No.
+tt2 Form
+tt2 Int.(wl)
+tt2 Width(wl)
+tt2 Height(wl)
+tt2 Length(wl)
+tt2 R(wl)
+tt2 Seg.
+tt2 Wires
+tt2 Perim(wl)
+
+MessageMedia_DlgBox Media Messages
+tt1  No.
+tt1  Dielec.
+tt1  Conduct(mS/m)
+tt1  X (m)
+tt1  Height(m)
+tt2  No.
+tt2  Dielec.
+tt2  Conduct(mS/m)
+tt2  R (m)
+tt2  Height(m)
+
+MessagStack_DlgBox Stack Messages
+muchwire  It's too many wires!
+muchsourc  It's too many sources!
+muchload  It's to many loads!
+smdist   Separation is too small! Bases overlap.
+creatnew Creat new description of the antenna with all wires? Make it?
+
+MessageWireCad_Dlg Wireedit Messages
+FiltTab All
+FiltTab Plane
+FiltTab Element 
+
+MININEC Mininec Messages
+hd0  FACTOR MATRIX...
+hd1  PULSE   ;  U (V) ;;  I (mA);; Z (Ohm);;SWR
+hd2  FILL MATRIX...
+hd3  CURRENT DATA...
+hd4  WAVE LENGTH = %.3f (m)
+hd5  ZERO LENGTH WIRE. (No.%d)
+hd6  PULSE NUMBER EXCEEDS DIMENSION (MAX=%d)
+hd7  NUMBER OF PULSES IS ZERO....
+hd8  TOTAL PULSE = %d
+hd9 PULSE NUMBER EXCEEDS NUMBER OF PULSES...
+hd10  NO. OF SOURCES EXCEEDS DIMENSION...
+hd11 PULSE NUMBER EXCEEDS NUMBER OF PULSES...
+hd12  FAR FIELD ...
+hd13  NO FATAL ERROR(S)
+hd14  FATAL ERROR!!! TEST ANTENNA DEFINITION!
+hd15 WIRE %d IS UNDERGROUND HEIGHT = %.2f M
+hd16 CONNECT WITH GND: ON
+hd17 THE CALCULATION WAS INTERRUPTED.
+hd18 THE LOWEST POINT OF ANTENNA = %.3f M
+
+FFStrings Far field Messages
+ff0  Free space
+ff1  Perfect GND
+ff2  Real GND
+ff3  Vertical polarization
+ff4  Horizontal polarization
+ff5  %d deg.
+ff6 Azim. %u deg,  Elev. %u deg
+ff7  F/B: %.2f dB; Rear: 
+ff8 Freq: %.3f MHz
+ff9  Z: %.3f %c j%.3f Ohm
+ff10  %.1f (600 Ohm)
+ff11  SWR: %.1f (%s Ohm),
+ff12  :%.2f m height
+ff13  Elev: %.1f deg (%s 
+ff14  (For elev. angle %.1f dg Peak:%.1f dBi)
