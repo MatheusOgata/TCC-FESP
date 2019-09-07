@@ -1,39 +1,39 @@
 material
 https://www.arsatc.org/noaa.html - informações praticas de integração do projeto fisico
-User's Guide for Building and Operating Environmental Satellite Receiving Stations - U.S. DEPARTMENT OF COMMERCE - National Environmental Satellite, Data, and Information Service
+[23]User's Guide for Building and Operating Environmental Satellite Receiving Stations - U.S. DEPARTMENT OF COMMERCE - National Environmental Satellite, Data, and Information Service
 
 
 tabelas
+[23]apt1
 tabelas monitoramento de subsistemas - https://www.ospo.noaa.gov/Operations/POES/status.html - 26/08/2019, <horario>
-tabela espectro avhrr - User's Guide for Building and Operating Environmental Satellite Receiving Stations - U.S. DEPARTMENT OF COMMERCE - National Environmental Satellite, Data, and Information Service
-
-figuras
-logo noaa - https://www.noaa.gov/ - 26/08/2019, <horario>
-noaa imagens 2 - https://www.noaa.gov/satellites - 26/08/2019, <horario>
-linha do tempo noaa - https://www.weathernationtv.com/news/noaa-15-polar-orbiting-satellite-makes-100-thousandth-orbit/ - 26/08/2019, <horario>
-noaa 18 - https://space.skyrocket.de/doc_sdat/noaa-n.htm - 26/08/2019, <horario>
+[19]tabela espectro avhrr - User's Guide for Building and Operating Environmental Satellite Receiving Stations - U.S. DEPARTMENT OF COMMERCE - National Environmental Satellite, Data, and Information Service
+[16]logo noaa - https://www.noaa.gov/ - 26/08/2019, <horario>
+[17]noaa imagens 2 - https://www.noaa.gov/satellites - 26/08/2019, <horario>
+[13]linha do tempo noaa - https://www.weathernationtv.com/news/noaa-15-polar-orbiting-satellite-makes-100-thousandth-orbit/ - 26/08/2019, <horario>
+[14]noaa 18 - https://space.skyrocket.de/doc_sdat/noaa-n.htm - 26/08/2019, <horario>
 noaa 19 - https://www.ospo.noaa.gov/Operations/POES/index.html - 26/08/2019
 BANDEIRA NOAA - https://en.wikipedia.org/wiki/National_Oceanic_and_Atmospheric_Administration - 26/08/2019, <horario>
 SELO NOAA - https://en.wikipedia.org/wiki/National_Oceanic_and_Atmospheric_Administration#/media/File:US-NationalWeatherService-Logo.svg - 26/08/2019, <horario>
 sistema espacial - Larson,W. J., et al. (Editors). Applied Space Systems Engineering. McGraw, Space Technology Series, 2009
-requisitos espacial - palestra no INPE - Noções Básicas sobre Garantia do Produto em Programas Espaciais, sua Missão e Atuação “Product Assurance” - Hadler Egydio da Silva -12/06/2018, <horario> 
-subsistemas 1 - Souza, P.N. “Curso Introdutório em Tecnologia de Satélites (CITS)” - INPE, abril de 2003.
-plataforma subsistemas - Souza, P.N. “Curso Introdutório em Tecnologia de Satélites (CITS)” - INPE, abril de 2003.
-AVHRR AVHRR 2 - https://www.esa.int/spaceinimages/Images/2002/03/AVHRR_instrument - 26/08/2019, <horario>
-aplicação1 - https://wiki.sj.ifsc.edu.br/wiki/index.php/Arquivo:Radio-Contribution.jpg - 26/08/2019, <horario>
-aplicacao2 - https://wiki.sj.ifsc.edu.br/wiki/index.php/Arquivo:TV-Distribution_via_fibreline.jpg - 26/08/2019, <horario>
-analisador eletrostático - palestra no INPE - MISSÃO EQUARS : ASPECTOS CIENTÍFICOS E INSTRUMENTAÇÃO EMBARCADA - Ing Hwie Tan - 10/06/2018, <horario>
-apex1,apex2 - palestra no INPE - MISSÃO EQUARS : ASPECTOS CIENTÍFICOS E INSTRUMENTAÇÃO EMBARCADA - Ing Hwie Tan - 10/06/2018, <horario>
-nanosatc - palestra no INPE - MISSÃO NANOSATC-BR - Danilo Pallamin de Almeida - 14/06/2018, <horario>
-sensoriamento remoto - FLORENZANO, T. G. Iniciação em Sensoriamento remoto. Oficina de textos, São Paulo, Brasil. 2011. ISBN 9788579750649 
-órbitas3 - https://pt.slideshare.net/maigon/aula-2-programas-espaciais - 01/09/2019, <horario>
-órbitas1 - https://www.tutorialspoint.com/satellite_communication/satellite_communication_earth_orbit_satellites.htm - 01/09/2019, <horario>
-segmento solo - palestra no INPE - Programa de Capacitação Tecnológica em Engenharia Espacial do curso de Engenharia e Tecnologia Espaciais do INPE - Christopher Shneider Cerqueira - 
+[4]requisitos espacial - palestra no INPE - Noções Básicas sobre Garantia do Produto em Programas Espaciais, sua Missão e Atuação “Product Assurance” - Hadler Egydio da Silva -12/06/2018, <horario> 
+[5]subsistemas 1 - Souza, P.N. “Curso Introdutório em Tecnologia de Satélites (CITS)” - INPE, abril de 2003.
+[6]plataforma subsistemas - Souza, P.N. “Curso Introdutório em Tecnologia de Satélites (CITS)” - INPE, abril de 2003.
+[20]AVHRR AVHRR 2 - https://www.esa.int/spaceinimages/Images/2002/03/AVHRR_instrument - 26/08/2019, <horario>
+[1]aplicação1 - https://wiki.sj.ifsc.edu.br/wiki/index.php/Arquivo:Radio-Contribution.jpg - 26/08/2019, <horario>
+[2]aplicacao2 - https://wiki.sj.ifsc.edu.br/wiki/index.php/Arquivo:TV-Distribution_via_fibreline.jpg - 26/08/2019, <horario>
+[7]analisador eletrostático - palestra no INPE - MISSÃO EQUARS : ASPECTOS CIENTÍFICOS E INSTRUMENTAÇÃO EMBARCADA - Ing Hwie Tan - 10/06/2018, <horario>
+[8]apex1,apex2 - palestra no INPE - MISSÃO EQUARS : ASPECTOS CIENTÍFICOS E INSTRUMENTAÇÃO EMBARCADA - Ing Hwie Tan - 10/06/2018, <horario>
+[9]nanosatc - palestra no INPE - MISSÃO NANOSATC-BR - Danilo Pallamin de Almeida - 14/06/2018, <horario>
+[3]sensoriamento remoto - FLORENZANO, T. G. Iniciação em Sensoriamento remoto. Oficina de textos, São Paulo, Brasil. 2011. ISBN 9788579750649 
+[11]órbitas3 - https://pt.slideshare.net/maigon/aula-2-programas-espaciais - 01/09/2019, <horario>
+[10]órbitas1 - https://www.tutorialspoint.com/satellite_communication/satellite_communication_earth_orbit_satellites.htm - 01/09/2019, <horario>
+[12]segmento solo - palestra no INPE - Programa de Capacitação Tecnológica em Engenharia Espacial do curso de Engenharia e Tecnologia Espaciais do INPE - Christopher Shneider Cerqueira - 
 color hrpt - User's Guide for Building and Operating Environmental Satellite Receiving Stations - U.S. DEPARTMENT OF COMMERCE - National Environmental Satellite, Data, and Information Service
-NOAA OFFICE - https://www.ospo.noaa.gov/Organization/About/mission.html - 02/09/20199, <horario>
+[18]NOAA OFFICE - https://www.ospo.noaa.gov/Organization/About/mission.html - 02/09/20199, <horario>
 US DEP COMMERCE - https://www.commerce.gov/ - 02/09/20199, <horario>
-subsistemas noaa15 - https://www.ospo.noaa.gov/Operations/POES/status.html#noaa19 - 03/09/20199, <horario>
-subsistemas noaa19 - https://www.ospo.noaa.gov/Operations/POES/status.html#noaa19 - 03/09/20199, <horario>
+[15]subsistemas noaa15 - https://www.ospo.noaa.gov/Operations/POES/status.html#noaa19 - 03/09/20199, <horario>
+[15]subsistemas noaa19 - https://www.ospo.noaa.gov/Operations/POES/status.html#noaa19 - 03/09/20199, <horario>
 escaneamento - http://oceandocs.org/ - 03/09/20199, <horario>
-modulação - autores - 03/09/20199
-radiometro varredura - KLOSE,Christina. SEOS Project Marine Pollition Tutorial. https://seos-project.eu/marinepollution/marinepollution-c01-ws02-s.html - 03/09/20199, <horario>
+[22]modulação - autores - 03/09/20199
+[21]radiometro varredura - KLOSE,Christina. SEOS Project Marine Pollition Tutorial. https://seos-project.eu/marinepollution/marinepollution-c01-ws02-s.html - 03/09/20199, <horario>
+Diseño y construcción de una antena cuadrifilar helicoidal para recepción de imágenes transmitidas por satélites de órbita polar - PONTIFICIA UNIVERSIDAD CATÓLICA DEL PERÚ - Bruce Vera Navides
