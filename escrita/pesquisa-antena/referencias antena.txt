@@ -1,3 +1,0 @@
-LRPT WEATHER SATELLITE IMAGE ACQUISITION USING A SDR-BASED RECEPTION SYSTEM. -  DASCAL, Paul Vladut
-
-plano de captura - busani, trabalho exemplo3
