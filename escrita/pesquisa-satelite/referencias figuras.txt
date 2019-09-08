@@ -36,4 +36,5 @@ US DEP COMMERCE - https://www.commerce.gov/ - 02/09/20199, <horario>
 escaneamento - http://oceandocs.org/ - 03/09/20199, <horario>
 [22]modulação - autores - 03/09/20199
 [21]radiometro varredura - KLOSE,Christina. SEOS Project Marine Pollition Tutorial. https://seos-project.eu/marinepollution/marinepollution-c01-ws02-s.html - 03/09/20199, <horario>
-Diseño y construcción de una antena cuadrifilar helicoidal para recepción de imágenes transmitidas por satélites de órbita polar - PONTIFICIA UNIVERSIDAD CATÓLICA DEL PERÚ - Bruce Vera Navides
+[24]Diseño y construcción de una antena cuadrifilar helicoidal para recepción de imágenes transmitidas por satélites de órbita polar - PONTIFICIA UNIVERSIDAD CATÓLICA DEL PERÚ - Bruce Vera Navides
+
