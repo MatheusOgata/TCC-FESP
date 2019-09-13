@@ -7,4 +7,5 @@ University, 2011.
 [4]https://www.arsatc.org/noaa2.html, 08/09/2019, 17h
 [5] http://www.inpe.br/scd1/site_scd/scd1/osatelite.htm, 08/09/2019, 18h15min
 [6] R.W. Hollander, “Resonant Quadrafilar Helical Antenna”, WORKING GROUP SATELLITES, 1999.
-[8] http://www.py2bbs.qsl.br/qfh.php
+[8] http://www.py2bbs.qsl.br/qfh.php, 08/09/2019, 12h23min
+[9] http://www.eldtec.com.br/cabos/rf50/rg58, 08/09/2019, 14h

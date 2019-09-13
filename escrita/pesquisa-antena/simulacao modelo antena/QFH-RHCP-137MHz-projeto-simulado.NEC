@@ -8,8 +8,9 @@ SY conec=0.01	'espaço central para os conectores
 SY RL=HL*0.44/2	'raio da espira maior
 SY RS=HS*0.44/2	'raio da espira menor
 SY delta_espiras=HL-HS	'espaço inferior das espiras
-SY heliceH=HL/0.5
-SY heliceS=HS/0.5
+SY heliceH=HL/0.5	'relação da hpelice maior com meia volta
+SY heliceS=HS/0.5	'relação da hpelice menor com meia volta
+SY altura_antena=2	'altura da antena a partir do solo
 GW	1	8	conec	0	HL	RL	0	HL	raio
 GW	2	8	-RL	0	HL	-conec	0	HL	raio
 GW	3	8	0	RS	HL	0	conec	HL	raio
@@ -24,7 +25,7 @@ GH	10	50	heliceS	-HS	RS	RS	RS	RS	raio
 GM	10	0	0	0	0	0	0	delta_espiras	10
 GH	11	50	heliceS	-HS	-RS	-RS	-RS	-RS	raio
 GM	11	0	0	0	0	0	0	delta_espiras	11
-GM	0	0	0	0	0	0	0	1
+GM	0	0	0	0	0	0	0	altura_antena
 GE	1
 LD	5	0	0	0	58000000
 GN	2	0	0	0	5	0.001

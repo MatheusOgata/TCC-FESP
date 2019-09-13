@@ -1,12 +1,11 @@
 CM QFH optimized for LCP gain and circularity
 CM By Peter Renner
-CM forw: 70, 212 ; back: 70, 32
 CE
 SY raio=0.0025	'raio do fio
-SY HL=.7	'altura da espira maior
+SY HL=0.703918	'altura da espira maior
 SY HS=0.95*HL	'altura da espira menor
 SY conec=0.01	'espaço central para os conectores
-SY razao=0.44	'espaço central para os conectores
+SY razao=0.441092	'espaço central para os conectores
 SY RL=HL*razao/2	'raio da espira maior
 SY RS=HS*razao/2	'raio da espira menor
 SY delta_espiras=HL-HS	'espaço inferior das espiras
@@ -33,9 +32,5 @@ GN	2	0	0	0	3	0.0004
 EK
 EX	0	8	1	0	1	0	0
 EX	0	7	1	0	0	1	0
-FR,0,1,0,0,137.498
-XQ
-FR,0,11,0,0,134,0.5
-PQ -1
-PT -1
-RP,0,37,72,1000,-90,2,5,5
+FR	0	0	0	0	137.498	0
+EN
