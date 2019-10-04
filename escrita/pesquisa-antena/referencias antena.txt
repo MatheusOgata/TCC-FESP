@@ -1,0 +1,30 @@
+[7]LRPT WEATHER SATELLITE IMAGE ACQUISITION USING A SDR-BASED RECEPTION SYSTEM. -  DASCAL, Paul Vladut
+
+[2] HAYT, W. H.; BUCK, J. A. Eletromagnetismo. [S.l.]: Bookman Editora, 2013.
+[1] BALANIS, C. A. Modern antenna handbook. [S.l.]: John Wiley & Sons, 2011.
+[3] SHAKEEB, M. Circularly Polarized Microstrip Antenna. Tese (Doutorado) — Concordia
+University, 2011.
+[4]https://www.arsatc.org/noaa2.html, 08/09/2019, 17h
+[5] http://www.inpe.br/scd1/site_scd/scd1/osatelite.htm, 08/09/2019, 18h15min
+[6] R.W. Hollander, “Resonant Quadrafilar Helical Antenna”, WORKING GROUP SATELLITES, 1999.
+[8] http://www.py2bbs.qsl.br/qfh.php, 08/09/2019, 12h23min
+[9] http://www.eldtec.com.br/cabos/rf50/rg58, 08/09/2019, 14h
+
+polarização circular
+antena turnstile
+antena double cross
+configuração QFH
+QFH UHF
+QFH satélite SCD-1
+dimensões das espiras
+antena 3d-1
+antena 3d-2
+antena 3d-3
+antena 3d-4
+vista superior
+modelo para simulação
+geometria para simulação
+diagrama de radiação
+gráfico de smith
+gráfico de COE
+gráfico de impedância
